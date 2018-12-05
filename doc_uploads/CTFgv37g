@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Pet Store - login</title>
+		<link rel="stylesheet" href="css/pet.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Pet Store</h1>				
+			</header>			
+			<div class = "col-1">
+				<nav>
+					<ul>
+						<li><a href="index.html" alt="Home">Home</a></li>
+						<li><a href="AboutUs.html"  alt="About Us">About Us</a></li>
+						<li><a href="contactus.html"  alt="Contact Us">Contact Us</a></li>
+						<li><a href="client.html"  alt="Register">Client</a></li>
+						<li><a href="service.html"  alt="Login">Service</a></li>
+						<li><a href="login.html"  alt="Login">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class ="col-2">
+				<img class="banner" src="images/banner-3.png" alt="login Page banner">		
+				<div class="page-content">
+					<h2>Login</h2>
+					<p>
+						Required information is marked with asterisk (*).
+					</p>
+					<form method="get">
+						<table  border = 0 cellspacing = 0>
+							<tr><td><label for="email">* E-mail:</label></td><td><input type="text" name="email" id="email" required></td></tr>
+							<tr><td><label for="pass">* Password: </label></td><td><input type="password" name="pass" id="pass" required></td></tr>
+						</table>
+						<input type="submit">
+					</form>
+					<footer>		
+						Copyright &copy; 2018 Pet Store<br>
+						<a href="mailto:abdullah@sorathia.com"><em>abdullah@sorathia.com</em></a>
+					</footer>
+				</div>
+			</div>			
+		</div>
+	</body>
+</html>
