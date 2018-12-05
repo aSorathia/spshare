@@ -1,6 +1,4 @@
 <?php
-
-    PHPinfo();
     include 'class_handler.php';
 
     $status = $baseController->checkLoginState();

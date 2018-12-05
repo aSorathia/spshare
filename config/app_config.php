@@ -5,10 +5,10 @@
     session_start();
    
     class DBConnect{
-        private const SERVERNAME = 'localhost';
-        private const USERNAME = 'root';
-        private const PASSWORD = '';
-        private const DBNAME = 'test';
+        private const SERVERNAME = 'us-cdbr-iron-east-01.cleardb.net';
+        private const USERNAME = 'b149556befae85';
+        private const PASSWORD = '1e01d1608078c94';
+        private const DBNAME = 'heroku_8c7683c880c7ed8';
 
         public static function getDbConnect(){
             $pdo = null;
