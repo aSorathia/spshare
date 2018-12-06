@@ -1,6 +1,6 @@
 <?php
     include 'class_handler.php';
-
+    PHPini();
     $status = $baseController->checkLoginState();
     if($status[0]){
         if($status[1]==1){

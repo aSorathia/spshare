@@ -158,7 +158,7 @@ combine gropname and grp list JOIN
 
             $fileName = $fileinfo['p_new_fileName'];
             $filesize = $fileinfo['fileSize'];
-            $referer = 'http://localhost/sp/dashboard.php';
+            $referer = 'https://sp-share.herokuapp.com/dashboard.php';
             if(isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER']==$referer){
                 $inGrp = FALSE;
                 $userInfos = $this->getUserInfo($_SESSION['u_id']);
@@ -218,7 +218,7 @@ combine gropname and grp list JOIN
             $filename = $fileinfo['p_new_fileName'];
             $path = 'doc_uploads/';
             $file = $path.$filename;
-            $referer = 'http://localhost/sp/dashboard.php';
+            $referer = 'https://sp-share.herokuapp.com/dashboard.php';
             $inGrp = FALSE;
             $userInfos = $this->getUserInfo($_SESSION['u_id']);
             foreach($userInfos as $userInfo){
